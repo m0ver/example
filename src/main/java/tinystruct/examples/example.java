@@ -12,11 +12,6 @@ public class example extends AbstractApplication {
         // TODO Auto-generated method stub
     }
 
-    @Override
-    public String version() {
-        return "1.0";
-    }
-
     @Action("praise")
     public String praise() {
         return "Praise to the Lord!";
@@ -35,4 +30,8 @@ public class example extends AbstractApplication {
         return words;
     }
 
+    @Override
+    public String version() {
+        return "1.0";
+    }
 }
